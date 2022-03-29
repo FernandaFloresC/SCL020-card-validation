@@ -1,3 +1,4 @@
+
 /* Asigno un color e imagen de fondo de pantalla */
 
 body {
@@ -6,6 +7,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 .encabezado {
     color: azure;
@@ -97,7 +99,13 @@ main {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+
+    margin: 1050;
+}
+
+
      }
+
 
 p{
     display: flex;
