@@ -1,4 +1,3 @@
-
 .encabezado {
     color: azure;
     font-family: Mouse Memoirs;
@@ -72,7 +71,9 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin: 1050;
-=======
+}
+
+
 /* Asigno un color e imagen de fondo de pantalla */
 
 body {
