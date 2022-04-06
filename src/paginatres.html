@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,42 @@
     <title>hola</title>
     <link rel="stylesheet" href="style2.css" />
 </head>
+
 <body>
-    <h1>Ingrese los datos de su tarjeta</h1>
+
+    <section>
+        <header>
+            <h1>Metodo de pago con tarjeta de crédito</h1>
+        </header>
+
+        <div class="container-flex">
+            <div class="instrucciones">Complete los datos solicitados en cada espacio.</div>
+
+            <main>
+                <form>
+
+                    <div>
+                        <h2>Información de Pago</h2>
+                    </div>
+
+                    <input class="NúmeroDeTarjeta" id="NúmeroDeTarjeta" type="text" placeholder="Número de tarjeta" />
+                    <input class="CVV" id="CVV" type="text" placeholder="Código de seguridad" />
+                    <input type="month" id="seleccionarMes" min="2016-03" max="2022-03" />
+                    <input id="input-button" type="button" value="Enviar" onclick/>
+                </form>
+        </div>
+        </main>
+    </section>
+
+    <footer>Licencia Creative Fernanda y Ericka</footer>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
