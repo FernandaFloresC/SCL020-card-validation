@@ -1,4 +1,4 @@
 import validator from './validator.js';
 
-
-console.log(validator);
+const prueba= document.getElementById("NumeroDeTarjeta");
+console.log(prueba);

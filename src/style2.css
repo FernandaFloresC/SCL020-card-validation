@@ -1,91 +1,134 @@
-                .container-flex {
-                    padding: 0 20px 30px 20px;
-                    font-family: "Mouse Memoirs";
-                    font-size: 1em;
-                    color: #333;
-                    text-align: center;
-                }
-                
-                h1 {
-                    font-size: 1.6em;
-                    font-family: "Mouse Memoirs";
-                    background-color: red;
-                    width: 0 auto;
-                    text-align: center;
-                    margin-top: 20px;
-                    margin-bottom: 300px;
-                }
-                
-                .instrucciones {
-                    color: black;
-                    font-family: Mouse Memoirs;
-                    font-size: 25px;
-                    margin: 5px;
-                    display: flex;
-                    margin-left: auto;
-                    margin-right: auto;
-                    justify-content: center;
-                }
-                
-                h2 {
-                    font-size: 1.6em;
-                    font-family: "Mouse Memoirs";
-                    text-align: center;
-                    margin: 10px;
-                }
-                
-                .NúmeroDeTarjeta {
-                    display: block;
-                    border: 8px;
-                    border-color: black;
-                    background-color: blueviolet;
-                    padding: 20px;
-                    margin: 10px;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                
-                .CVV {
-                    display: block;
-                    border: 8px;
-                    border-color: black;
-                    background-color: chartreuse;
-                    padding: 20px;
-                    margin: 10px;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                
-                input[type="month"] {
-                    display: block;
-                    border: 8px;
-                    border-color: rgb(110, 17, 98);
-                    background-color: rgb(255, 0, 106);
-                    padding: 20px;
-                    margin: 10px;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                
-                input[type="button"] {
-                    font-family: Mouse Memoirs;
-                    font-size: 25px;
-                    color: black;
-                    background-color: yellow;
-                    border-color: black;
-                    border-style: solid;
-                    border: 0px;
-                    border-radius: 15px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-                
-                footer {
-                    margin: 50px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
+
+body {
+    background-color: #CAF7E3;
+    background-image: url("https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?w=1560&ssl=1");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Asigno un color e imagen de fondo de pantalla */
+
+
+h1 {
+    font-size: 35px;
+    font-family: Mouse Memoirs;
+    background-color: red;
+    text-align: center;
+    
+    
+}
+/*Asignamos estilo a Método de pago*/
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+/*Asignamos tamaño a una imagen sobrepuesta*/
+
+.instrucciones {
+    color: black;
+    font-family: Mouse Memoirs;
+    font-size: 30px;
+    margin: 2px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+/*Asignamos estilo a instrucciones*/
+
+
+h2 {
+    font-size: 30px;
+    font-family: Mouse Memoirs;
+    background-color: white;
+    text-align: center;
+    margin: 2px;
+    align-items: center;
+}
+/*Asignamos estilo a información de pago*/
+
+
+.NumeroDeTarjeta {
+    font-family: Mouse Memoirs;
+    font-size: 20px;
+    display: block;
+    border: 8px;
+    border-color: black;
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+/*Asignamos estilo al llenado de número de la tarjeta*/
+
+
+.CVV {
+    font-family: Mouse Memoirs;
+    font-size: 20px;
+    display: block;
+    border: 8px;
+    border-color: black;
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+/*Asignamos estilo al código de seguridad*/
+
+
+input[type="month"] {
+    font-family: Mouse Memoirs;
+    font-size: 20px;
+    display: block;
+    border: 8px;
+    border-color: rgb(110, 17, 98);
+    background-color: blanchedalmond;
+    padding: 20px;
+    padding-left: 110px;
+    padding-right:110px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+/*Asignamos estilo al calendario de fecha de expiración*/
+
+
+input[type="button"] {
+    font-family: Mouse Memoirs;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    border-style: solid;
+    border: 0px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Asignamos estilo al botón de enviar*/
+
+
+p {
+ 
+    display: flex;
+    justify-content: center;
+}
+/*Asignamos estilo al pìe de página*/
