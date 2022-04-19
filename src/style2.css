@@ -1,85 +1,120 @@
-h1 {
-    color: aqua;
-}
-
 body {
-    background-image: url("https://lh3.googleusercontent.com/Dhr2xJw8G-sJYAfnTfLxDmHFiJ7y0rngtYp1pQ3XdasQ40lYlCz8GYqbWBM3l3vihMDymEjOSBcY48L2t3N1ulXKE9H28AvamLwWI7PGrvtL6ANJbdiFNLFI-0-cKb6a04jvAhxkm2aFVuMPNAj3I0z_ig-5mGOFbuLHuLA9ywmWEa66cEP79DI4Jx0BHa425iU_HuxFymxyKVYaUPeWmRsVgoOooh2ajbExcoVIWEgphYi1lyBVek9SY17TkL1hKyAbeZxNcQnWZkaTmTUuV7gm4TVzorNHDWKFIywKMqAvJuWA1pfX1UZnuhsVutIQMM5tmamy7QUH4pNo4kbCZqzOwNrxssRysU3KmHSl7UK8f2Mu63Ew90Fjtjt1zEGooVO6SV_XhVNiVSpGCSKFM7nkxlhKJHjcOLALRYeIGWrHGW2l46I__RUyKXa_GaMZ6snNomrw8OfsdzAXH4eT8Xrdn_FThQrrV9hlax89d4L5-FjNCLzxoXMpePq-zr-QbpW8riSzGVFfr6gyi2lqOKaRAJnA-Be0bU8KJMnNOfchrTlli9AlwkNMPoPbV5m_ZUpWi16jgsEkvGNizfa0jf8UqN-KBIZmnpTGTXkRKgkZcSFOfFOQvrMf1WyYlig3bFL6VqBW5EFFsSj06-8_NFDpVOvcMIVcK0-OUJdWv7-Y7QnuZMPheRrFGIzmUDMApL_CFOGPkvt5LpjdAEDGA_6mjnVhP_hd3dRy1RkIiXN7KdaeB3nSsH-CZHK1c-I8DfWMSUnW6j0HUTEAeiiNKbkmrXotTnZCO54YRAmnXo4qSfH9cPdcJzVdpJMxxL4pfDmetRZR62-0QMcmPwaxwZKhqFH0Ig82cy_aIoJTx1mrPXPAAR-msIrJ_mjk3F7pfxs-mZEjGi6J=w1146-h573-no?authuser=4");
+    background-color: #CAF7E3;
+    background-image: url("https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?w=1560&ssl=1");
     background-size: cover;
     background-attachment: fixed;
 }
 
-.container-flex {
-    padding: 0 20px 30px 20px;
-    font-family: "Mouse Memoirs";
-    font-size: 1em;
-    color: #333;
+
+/* Asigno un color e imagen de fondo de pantalla */
+
+h1 {
+    font-size: 35px;
+    font-family: Mouse Memoirs;
+    background-color: red;
     text-align: center;
 }
 
-h1 {
-    font-size: 1.6em;
-    font-family: "Mouse Memoirs";
-    background-color: yellow;
-    width: 0 auto;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 300px;
+
+/*Asignamos estilo a Método de pago*/
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
+
+
+/*Asignamos tamaño a una imagen sobrepuesta*/
 
 .instrucciones {
     color: black;
     font-family: Mouse Memoirs;
-    font-size: 25px;
-    margin: 5px;
+    font-size: 30px;
+    margin: 2px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
 }
 
+
+/*Asignamos estilo a instrucciones*/
+
 h2 {
-    font-size: 1.6em;
-    font-family: "Mouse Memoirs";
+    font-size: 30px;
+    font-family: Mouse Memoirs;
+    background-color: white;
     text-align: center;
-    margin: 10px;
+    margin: 2px;
+    align-items: center;
 }
 
-.NúmeroDeTarjeta {
+
+/*Asignamos estilo a información de pago*/
+
+.numTarjeta {
+    font-family: Mouse Memoirs;
+    font-size: 20px;
     display: block;
     border: 8px;
     border-color: black;
-    background-color: blueviolet;
+    background-color: whitesmoke;
     padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
+
+
+/*Asignamos estilo al llenado de número de la tarjeta*/
 
 .CVV {
+    font-family: Mouse Memoirs;
+    font-size: 20px;
     display: block;
     border: 8px;
     border-color: black;
-    background-color: chartreuse;
+    background-color: whitesmoke;
     padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
+
+/*Asignamos estilo al código de seguridad*/
+
 input[type="month"] {
+    font-family: Mouse Memoirs;
+    font-size: 20px;
     display: block;
     border: 8px;
     border-color: rgb(110, 17, 98);
-    background-color: rgb(255, 0, 106);
+    background-color: blanchedalmond;
     padding: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
+
+
+/*Asignamos estilo al calendario de fecha de expiración*/
 
 input[type="button"] {
     font-family: Mouse Memoirs;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 30px;
     color: black;
     background-color: yellow;
     border-color: black;
@@ -88,14 +123,19 @@ input[type="button"] {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-footer {
-    margin: 50px;
+
+/*Asignamos estilo al botón de enviar*/
+
+p {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
+
+
+/*Asignamos estilo al pìe de página*/

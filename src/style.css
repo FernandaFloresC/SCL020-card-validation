@@ -1,4 +1,3 @@
-/* Asigno un color e imagen de fondo de pantalla */
 
 body {
     background-color: #CAF7E3;
@@ -6,8 +5,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+/* Asigno un color e imagen de fondo de pantalla */
 
-.encabezado {
+.Encabezado {
     color: azure;
     font-family: Mouse Memoirs;
     border: 1px solid blue;
@@ -22,8 +22,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+/*Asignamos estilo al encabezado*/
 
-.enlaces {
+
+.Enlaces {
     color: azure;
     font-size: larger;
     font-family: Mouse Memoirs;
@@ -40,8 +42,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
+/*Asignamos estilo a enlaces*/
 
-.intentoDos {
+.ServicioTécnico {
     font-family: Mouse Memoirs;
     font-weight: 300;
     font-size: 25px;
@@ -55,8 +58,9 @@ body {
     border: 0px;
     border-radius: 15px;
 }
+/*Asignamos estilo al botón de servicio técnico*/
 
-.intentoTres {
+.AtenciónAlCliente {
     font-family: Mouse Memoirs;
     font-weight: 300;
     font-size: 25px;
@@ -70,8 +74,11 @@ body {
     border: 0px;
     border-radius: 15px;
 }
+/*Asignamos estilo al botón de atención al cliente*/
 
-main {
+main
+/*No colocamos Pague porque el recuadro se altera*/
+{
     color: red;
     font-family: Mouse Memoirs;
     font-size: xx-large;
@@ -85,8 +92,9 @@ main {
     margin-right: auto;
     justify-content: center;
 }
+/*Asignamos estilo a la caja de pago vencido*/
 
-.continuar {
+.Continuar {
     color: azure;
     font-family: Mouse Memoirs;
     border: 1px solid blue;
@@ -100,8 +108,9 @@ main {
     display: flex;
     flex-direction: column;
 }
+/*Asignamos estilo a la caja de continuar con el pago*/
 
-.intento {
+.BotónPago {
     font-family: Mouse Memoirs;
     font-weight: 600;
     font-size: 50px;
@@ -117,8 +126,9 @@ main {
     align-items: center;
     justify-content: center;
 }
+/*Asignamos estilo al botón de pagar*/
 
-.box4 {
+.boxDePremios {
     display: flex;
     justify-content: center;
     height: 200px;
@@ -134,8 +144,12 @@ main {
     margin-right: auto;
     margin: 1050;
 }
+/*Asignamos estilo a la caja de premios*/
 
 p {
     display: flex;
     justify-content: center;
 }
+/*Asignamos tamaño de letra y centrado al pie de página*/
+
+/*Todo se encuentra en un recuadro independiente y con estilos diferentes de margen y/o bordes*/

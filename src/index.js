@@ -1,5 +1,17 @@
 import validator from './validator.js';
 
-const tarjeta = document.getElementById("NumeroDeTarjeta");
+document.getElementById("input-button").addEventListener("click", () => {
 
-console.log("tarjeta");
+    let digitos = (document.getElementById("NumeroDeTarjeta").value);
+
+    validator(digitos);
+    if (validator(digitos) == true) {
+        alert('Tarjeta válida');
+    } else {
+        alert('Tarjeta inválida, intente nuevamente');
+    }
+
+    console.log(validator);
+
+
+})
