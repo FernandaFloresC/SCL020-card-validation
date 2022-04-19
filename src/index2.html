@@ -11,49 +11,50 @@
 
 <body>
 
-    
+
     <section>
         <header>
             <h1>Método de pago con tarjeta de crédito</h1>
             <!--Método de pago es h1 en css-->
         </header>
-   
 
-   
-        <img src="Imagen_de_tarjeta_de_credito-1024x492.png"> 
-            <div class="instrucciones"> Complete los datos solicitados en cada espacio.</div>
-<!--Nombramos al class instrucciones-->
-     
-            <main>
-            
-                <form>
 
-                    <div>
-                        <h2>Información de Pago</h2>
-                        <!--Nombramos a inf de pago-->
-                    </div>
 
-                    <input class="NumeroDeTarjeta" id="NumeroDeTarjeta" type="text" placeholder="Numero de tarjeta" />
-                    <!--Nombramos el input class con n de tarjeta, limitamos a que solo ingresen números y 16 dígitos solamente, agregamos un placeholder-->
-                    <input class="CVV" id="CVV" type="text" placeholder="Código de seguridad" />
-                     <!--Nombramos el input class con CVV, limitamos el digitado a 3 númerosy agregamos un placeholder-->
-                    <input type="month" id="seleccionarMes" min="2016-03" max="2022-03" />
-                     <!--Nombramos el input type month para agregar un calendario mensual y anual, agregamos un mínimo y máximo de fecha admitida-->
-                    <input id="input-button" type="button" value="Enviar" onclick/>
-                     <!--Nombramos el input id input button y seguimos probando con onclick-->
-                </form>
-        </div>
+        <img src="Imagen_de_tarjeta_de_credito-1024x492.png">
+        <div class="instrucciones"> Complete los datos solicitados en cada espacio.</div>
+        <!--Nombramos al class instrucciones-->
+
+        <main>
+
+            <form>
+
+                <div>
+                    <h2>Información de Pago</h2>
+                    <!--Nombramos a inf de pago-->
+                </div>
+
+                <input class="numTarjeta" id="NumeroDeTarjeta" type="number" placeholder="Numero de tarjeta" minlength="0" maxlength="16" />
+                <!--Nombramos el input class con n de tarjeta, limitamos a que solo ingresen números y 16 dígitos solamente, agregamos un placeholder-->
+                <input class="CVV" id="CVV" type="number" placeholder="Código de seguridad" />
+                <!--Nombramos el input class con CVV, limitamos el digitado a 3 númerosy agregamos un placeholder-->
+                <input type="month" id="seleccionarMes" min="2020-03" max="2026-03" />
+                <!--Nombramos el input type month para agregar un calendario mensual y anual, agregamos un mínimo y máximo de fecha admitida-->
+                <input id="input-button" type="button" value="Enviar" onclick/>
+                <!--Nombramos el input id input button y seguimos probando con onclick-->
+            </form>
+            </div>
         </main>
     </section>
 
-   <footer>
+    <footer>
 
-    <p><small>Licencia Creative Fernanda y Ericka</small></p>
-    
+        <p><small>Licencia Creative Fernanda y Ericka</small></p>
 
-</footer>
-<!--Colocamos un pie de página-->
-<script src="index.js" type="module"></script>
+
+    </footer>
+    <!--Colocamos un pie de página-->
+    <script src="index.js" type="module"></script>
+    <script src="validator.js" type="module"></script>
 </body>
 
 </html>
