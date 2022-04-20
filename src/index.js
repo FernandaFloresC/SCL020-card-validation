@@ -3,15 +3,12 @@ import validator from './validator.js';
 document.getElementById("input-button").addEventListener("click", () => {
 
     let digitos = (document.getElementById("NumeroDeTarjeta").value);
-
-    validator(digitos);
-    if (validator(digitos) == true) {
-        alert('Tarjeta válida');
+    let enmascarado = (validator.maskify(digitos));
+    if (validator.isValid(digitos) == true) {
+        alert(('Tarjeta válida') + enmascarado);
     } else {
         alert('Tarjeta inválida, intente nuevamente');
     }
-
-    console.log(validator);
 
 
 })
