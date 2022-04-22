@@ -9,9 +9,17 @@ body {
 /* Asigno un color e imagen de fondo de pantalla */
 
 h1 {
-    font-size: 35px;
+    color: black;
     font-family: Mouse Memoirs;
-    background-color: red;
+    font-size: 35px;
+    border: 5px inset black;
+    background-color: rgb(230, 44, 44);
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     text-align: center;
 }
 
@@ -23,6 +31,7 @@ img {
     margin-right: auto;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
 }
 
 
@@ -32,23 +41,33 @@ img {
     color: black;
     font-family: Mouse Memoirs;
     font-size: 30px;
-    margin: 2px;
-    display: flex;
+    border: 5px inset mediumturquoise;
+    background-color: paleturquoise;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    text-align: center;
 }
 
 
 /*Asignamos estilo a instrucciones*/
 
 h2 {
-    font-size: 30px;
+    color: black;
     font-family: Mouse Memoirs;
-    background-color: white;
+    font-size: 30px;
+    border: 5px outset mediumturquoise;
+    background-color: paleturquoise;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     text-align: center;
-    margin: 2px;
-    align-items: center;
 }
 
 
