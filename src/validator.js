@@ -1,13 +1,11 @@
 const validator = {
-    //ingreso: digitos,
-    //msg2: 'hola' // ...
 
-    isValid(name) {
+    isValid(validar) {
         let digitosConver = [];
 
         //console.log(digitos.length);
         //declaramos la variable nmrs la cual convertira en un array con el metodo .split
-        let nmrs = name.split('');
+        let nmrs = validar.split('');
         //console.log(nmrs[0]); con este console comprobamos que nos mostrara el indice solicitado
         for (let i = 0; i < nmrs.length; i++) {
             //console.log(i); //aqui pintamos todos los indices
@@ -34,18 +32,12 @@ const validator = {
 
     },
 
-    maskify(name2) {
+    maskify(validar) {
 
-        const result = name2.slice(0, -4).replace(/./g, '#') + name2.slice(-4);
+        const result = validar.slice(0, -4).replace(/./g, '#') + validar.slice(-4);
         return result;
         //console.log(maskify);
     }
-
-
-
-
-
-
 
 }
 export default validator;
