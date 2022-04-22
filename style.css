@@ -1,0 +1,155 @@
+
+body {
+    background-color: #CAF7E3;
+    background-image: url("https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?w=1560&ssl=1");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Asigno un color e imagen de fondo de pantalla */
+
+.Encabezado {
+    color: azure;
+    font-family: Mouse Memoirs;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 100px;
+    padding: 10px;
+    width: 800px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Asignamos estilo al encabezado*/
+
+
+.Enlaces {
+    color: azure;
+    font-size: larger;
+    font-family: Mouse Memoirs;
+    background-color: blue;
+    border: 1px solid blue;
+    margin: 100px;
+    padding: 20px;
+    height: 150px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*Asignamos estilo a enlaces*/
+
+.ServicioTécnico {
+    font-family: Mouse Memoirs;
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0px;
+    border-radius: 15px;
+}
+/*Asignamos estilo al botón de servicio técnico*/
+
+.AtenciónAlCliente {
+    font-family: Mouse Memoirs;
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0px;
+    border-radius: 15px;
+}
+/*Asignamos estilo al botón de atención al cliente*/
+
+main
+/*No colocamos Pague porque el recuadro se altera*/
+{
+    color: red;
+    font-family: Mouse Memoirs;
+    font-size: xx-large;
+    border: 5px solid red;
+    background-color: black;
+    margin: 100px;
+    padding: 50px;
+    width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+/*Asignamos estilo a la caja de pago vencido*/
+
+.Continuar {
+    color: azure;
+    font-family: Mouse Memoirs;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 100px;
+    padding: 10px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/*Asignamos estilo a la caja de continuar con el pago*/
+
+.BotónPago {
+    font-family: Mouse Memoirs;
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    border-style: solid;
+    border: 0px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Asignamos estilo al botón de pagar*/
+
+.boxDePremios {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    color: azure;
+    font-family: cursive;
+    font-size: x-large;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 100px;
+    padding: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1050;
+}
+/*Asignamos estilo a la caja de premios*/
+
+p {
+    display: flex;
+    justify-content: center;
+}
+/*Asignamos tamaño de letra y centrado al pie de página*/
+
+/*Todo se encuentra en un recuadro independiente y con estilos diferentes de margen y/o bordes*/
